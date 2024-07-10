@@ -77,7 +77,6 @@ body {
   width: 100%;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
-
 }
 
 .coding-imp-container {
@@ -95,7 +94,11 @@ body {
   align-items: center;
   padding: 48px;
   border-radius: 16px;
-  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .top-contant {
@@ -136,8 +139,12 @@ body {
   justify-content: space-between;
   padding: 48px;
   border-radius: 16px;
-  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-  margin-top: 16px
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-top: 16px;
 }
 
 .mid-image {
@@ -166,8 +173,12 @@ body {
   justify-content: space-between;
   padding: 48px;
   border-radius: 16px;
-  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-  margin-top: 16px
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-top: 16px;
 }
 
 .end-image {
@@ -189,9 +200,10 @@ body {
   font-size: 16px;
   font-weight: 400;
 }
+/*coding section end*/
+
 /* coding section start */
 .inspiration-contant {
-
   text-align: center;
   width: 946px;
   margin-left: 300px;
@@ -200,14 +212,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 300px;
-  
 }
 
 .inspiration-contant h3 {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
-
 }
 .inspiration-contant p {
   margin-top: 34px;
@@ -217,25 +227,23 @@ body {
   margin-bottom: 38px;
   padding: 0px;
 }
-.inspiration-vdo{
-    width: 1140px;
-    height: 614px;
-
-
+.inspiration-vdo {
+  width: 1140px;
+  height: 614px;
 }
 
 .inspiration-vdo iframe {
-    width: 1090px;
-    height: 554px;
-
+  width: 1090px;
+  height: 554px;
 }
+
+/* coding section end*/
 
 /* target section start */
 .target-container {
   margin-top: 120px;
   text-align: center;
   margin-left: 130px;
-
 }
 .target-container h2 {
   color: rgb(13, 19, 33);
@@ -243,7 +251,6 @@ body {
   font-weight: 800;
   margin-bottom: 24px;
   padding-right: 100px;
-
 }
 .target-container p {
   color: rgb(13, 19, 33);
@@ -254,7 +261,6 @@ body {
   height: 1072px;
   margin: 25px 26px 80px 220px;
   height: 52px;
-
 }
 
 .skills {
@@ -263,9 +269,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 20px; */
-  /* margin-top: 48px;
-  margin-left: 150px; */
 }
 
 .skill-html {
@@ -319,19 +322,17 @@ body {
 }
 /* target section end */
 
-
-/* footer */
-.supports{
+/* support section start */
+.supports {
   background-image: url(../assets/handshake.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 946px;
   height: 313px;
-  /* margin: 50px 86px 80px 220px; */
   border-radius: 16px;
   background-color: rgba(0, 0, 0, 0.4);
-  background-blend-mode:overlay ;
+  background-blend-mode: overlay;
   border-radius: 16px;
   padding: 24px 48px 64px 48px;
   margin-left: 220px;
@@ -339,34 +340,31 @@ body {
   text-align: center;
 }
 
-.support-container{
+.support-container {
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-.support-container h2{
-
+.support-container h2 {
   margin-bottom: 18px;
   color: white;
   font-size: 32px;
   font-weight: 700;
 }
-.support-container p{
-
+.support-container p {
   font-size: 16px;
   font-weight: 400;
   color: rgb(255, 255, 255);
 }
 
-.suggation{
+.suggation {
   width: 100%;
   text-align: center;
   padding: 20px;
 }
-.suggation input[type = "text"]{
+.suggation input[type="text"] {
   width: 548px;
   height: 60px;
   padding-left: 20px;
@@ -376,21 +374,20 @@ body {
   background: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 400;
-
 }
 
-.suggation input[type = "submit"]{
+.suggation input[type="submit"] {
   width: 120px;
   height: 57px;
   border-radius: 8px;
   background: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600;
-
-
 }
+/* support section end */
 
-.social{
+/* footer section start */
+.social {
   padding: 32px 150px 32px 150px;
   display: flex;
   justify-content: space-between;
@@ -399,9 +396,8 @@ body {
   background: rgba(13, 19, 33, 0.03);
   height: 30px;
   margin-top: 80px;
-
 }
-.social a{
+.social a {
   text-decoration: none;
 }
-
+/* footer section end */
